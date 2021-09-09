@@ -28,5 +28,10 @@ public class Main {
         for (int i = 0; i < fruits.length; i++) {
             System.out.println(fruits[i].weight);
         }
+        System.out.println();
+
+        for (Fruit fruit : fruits) {
+            System.out.println(fruit.weight);
+        }
     }
 }
